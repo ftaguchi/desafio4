@@ -41,7 +41,7 @@ class TransactionsRepository {
         return accumulator;
       },
       {
-        // Valores iniciai
+        // Valores iniciais
         income: 0,
         outcome: 0,
         total: 0,

@@ -23,7 +23,7 @@ transactionRouter.get('/', (request, response) => {
 
 transactionRouter.post('/', (request, response) => {
   try {
-    // Reciperação dos dados do corpo da requisição
+    // Recuperação dos dados do corpo da requisição
     const { title, value, type } = request.body;
     // Criação de uma nova requisição
     const createTransaction = new CreateTransactionService(
